@@ -10,50 +10,50 @@
     <header>
         <nav>
             <ul>
-                <li><a class="first-link" href="#">Головна</a></li>
-                <li><a href="https://example.com">Про нас</a></li>
-                <li><a href="#">Послуги</a></li>
-                <li><a href="http://notrealsite.ua">Контакти</a></li>
+                <li class="element"><a class="first-link" href="#">Головна</a></li>
+                <li><a class="second-link" href="https://example.com">Про нас</a></li>
+                <li><a class="third-element" href="#">Послуги</a></li>
+                <li class="element"><a class="last-element" href="http://notrealsite.ua">Контакти</a></li>
             </ul>
         </nav>
     </header>
     <div class="container">
         <h1>CSS Selectors Challenge</h1>
-        <p>Це абзац тексту.</p>
+        <p class="prg"><span class="span">Ц</span>е абзац тексту.</p>
         <ul>
             <li>Перший пункт списку</li>
             <li class="special">Другий пункт списку</li>
             <li>Третій пункт списку</li>
         </ul>
         <div class="box">
-            <p>Цей абзац знаходиться в коробці.</p>
+            <p class="prg"><span class="span">Ц</span>ей абзац знаходиться в коробці.</p>
         </div>
         <form>
             <label for="input1">Поле введення 1:</label>
-            <input type="text" id="input1">
+            <input class="text" type="text" id="input1">
             <label for="input2">Поле введення 2:</label>
-            <input type="text" id="input2" disabled>
+            <input class="input2" type="text" id="input2" disabled>
             <label for="email1">Email:</label>
             <input type="email" id="email1">
             <label for="input3">Поле введення 3:</label>
-            <input type="text" id="input3">
+            <input class="text" type="text" id="input3">
             <label for="check1">Чекбокс 1:</label>
-            <input type="checkbox" id="check1">
+            <input class="check" type="checkbox" id="check1">
             <label for="check2">Чекбокс 2:</label>
-            <input type="checkbox" id="check2">
+            <input class="check" type="checkbox" id="check2">
         </form>
     </div>
     <section>
         <h2>Додатковий розділ</h2>
-        <p>Це ще один абзац тексту в іншому розділі.</p>
+        <p><span class="span">Ц</span>е ще один абзац тексту в іншому розділі.</p>
         <ul>
-            <li>Перший пункт списку</li>
-            <li>Другий пункт списку</li>
+            <li class="element">Перший пункт списку</li>
+            <li class="element">Другий пункт списку</li>
         </ul>
     </section>
     <footer>
-        <p>&copy; 2023 Ваша компанія. Усі права захищені.</p>
-        <a href="#">Home</a>
+        <p class="prg">&copy; 2023 Ваша компанія. Усі права захищені.</p>
+        <a class="last-element" href="#">Home</a>
     </footer>
 </body>
 </html>

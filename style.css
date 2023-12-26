@@ -1,3 +1,59 @@
 .first-link {
     font-weight: 900;
+    text-decoration: underline;
 }
+
+.last-element {
+    color: red;
+    text-decoration: underline;
+}
+
+.input2 {
+    background-color: gray;
+}
+
+.prg {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.second-link {
+    color: green;
+    text-decoration: underline;
+}
+
+.text {
+    border-style: solid;
+    border-color: darkblue;
+    background-color: gray;
+}
+
+.element {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.check {
+    background-color: rgb(13, 175, 229);
+}
+
+.third-element {
+    text-decoration: underline;
+}
+
+.special {
+    font-weight: 900;
+    text-decoration: line-through;
+}
+
+.prg {
+    font-size: 24px;
+}
+
+.span {
+    font-size: 36px;
+}
+
+a::after: {
+    content: "↗"
+};
